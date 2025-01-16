@@ -11,6 +11,11 @@ initialize the cdk:
 cdk init app --language go
 ```
 
+Download go dependencies:
+```bash
+go mod tidy
+```
+
 Generate cloud formation template: 
 ```bash
 cdk synth
