@@ -15,3 +15,8 @@ Generate cloud formation template:
 ```bash
 cdk synth
 ```
+
+Deploy the code:
+```bash
+cdk deploy
+```
