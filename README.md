@@ -16,6 +16,11 @@ Download go dependencies:
 go mod tidy
 ```
 
+Deploys the CDK toolkit stack into an AWS environment:
+```bash
+cdk bootstrap
+```
+
 Generate cloud formation template: 
 ```bash
 cdk synth
