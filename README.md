@@ -30,3 +30,10 @@ Deploy the code:
 ```bash
 cdk deploy
 ```
+
+---
+
+Cleanup CDK deployment from AWS:
+```bash
+./cleanup.sh default ap-south-1
+```
