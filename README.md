@@ -2,18 +2,23 @@
 
 Create new folder:
 ```bash
-mkdir myapp
-cd myapp
+mkdir my-python-app
+cd my-python-app
 ```
 
 initialize the cdk: 
 ```bash
-cdk init app --language go
+cdk init sample-app --language python
 ```
 
-Download go dependencies:
+Activate the virtual environment:
 ```bash
-go mod tidy
+source .venv/bin/activate
+```
+
+Install the required packages:
+```bash
+pip3 install -r requirements.txt
 ```
 
 Deploys the CDK toolkit stack into an AWS environment:
