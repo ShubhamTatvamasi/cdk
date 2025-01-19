@@ -21,14 +21,14 @@ Install the required packages:
 pip3 install -r requirements.txt
 ```
 
-Deploys the CDK toolkit stack into an AWS environment:
-```bash
-cdk bootstrap
-```
-
 Generate cloud formation template: 
 ```bash
 cdk synth
+```
+
+Deploys the CDK toolkit stack into an AWS environment:
+```bash
+cdk bootstrap
 ```
 
 Deploy the code:
