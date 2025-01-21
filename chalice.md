@@ -1,5 +1,15 @@
 # chalice
 
+Install CDK chalice:
+```bash
+python3 -m pip install "chalice[cdkv2]"
+```
+
+Check the installed package:
+```bash
+chalice --version
+```
+
 Create a new project:
 ```bash
 chalice new-project
