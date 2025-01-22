@@ -31,9 +31,14 @@ Deploys the CDK toolkit stack into an AWS environment:
 cdk bootstrap
 ```
 
-Deploy the code:
+Deploy the stack:
 ```bash
 cdk deploy
+```
+
+Destroy the stack:
+```bash
+cdk destroy
 ```
 
 ---
