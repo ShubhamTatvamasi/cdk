@@ -31,6 +31,11 @@ Deploys the CDK toolkit stack into an AWS environment:
 cdk bootstrap
 ```
 
+Compares the specified stack with the deployed:
+```bash
+cdk diff
+```
+
 Deploy the stack:
 ```bash
 cdk deploy
